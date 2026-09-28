@@ -1,0 +1,13 @@
+# Terraform directory
+.terraform/
+
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+.terraform.tfstate.lock.info
+
+# Lock file
+.terraform.lock.hcl
+
+# Backup files
+*.bak
