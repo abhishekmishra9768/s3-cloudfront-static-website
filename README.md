@@ -2,7 +2,7 @@
 
 ## Architecture
 
-![Architecture](./Mermaid-preview.png)
+![Architecture](https://raw.githubusercontent.com/abhishekmishra9768/s3-cloudfront-static-website/main/Mermaid-preview.png)
 
 ## Overview
 

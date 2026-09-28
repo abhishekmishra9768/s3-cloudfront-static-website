@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket       = "udaan-batch-11-abhishek-2026"
+    bucket       = "mishrajiwale.xyz"
     key          = "s3-cloudfront/terraform.tfstate"
     region       = "ap-south-1"
     use_lockfile = true
