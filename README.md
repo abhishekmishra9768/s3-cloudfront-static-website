@@ -54,10 +54,14 @@ S3bucket_and_cloudfront/
 
 ## Remote Backend
 
-State file is stored in S3:
-```
-udaan-batch-11-abhishek-2026/
-└── s3-cloudfront/terraform.tfstate
+State file is stored in S3. Update `terraform.tf` with your own S3 bucket name:
+```hcl
+backend "s3" {
+  bucket       = "<your-s3-bucket-name>"
+  key          = "s3-cloudfront/terraform.tfstate"
+  region       = "ap-south-1"
+  use_lockfile = true
+}
 ```
 
 ---
